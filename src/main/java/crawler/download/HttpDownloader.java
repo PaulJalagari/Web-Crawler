@@ -1,4 +1,4 @@
-package com.java.crawler.download;
+package crawler.download;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.java.crawler.props;
+package cralwer.props;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

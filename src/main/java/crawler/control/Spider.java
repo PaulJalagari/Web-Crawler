@@ -1,4 +1,4 @@
-package com.java.crawler.to;
+package crawler.control;
 
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -7,7 +7,7 @@ import java.util.Set;
 
 import org.apache.log4j.Logger;
 
-import com.java.crawler.dao.*;
+import crawler.fetch.*;
 
 public class Spider {
 

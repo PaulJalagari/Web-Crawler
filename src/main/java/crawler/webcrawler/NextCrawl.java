@@ -1,9 +1,10 @@
-package com.java.crawler.WebCrawlerr;
+package crawler.webcrawler;
 
 import java.util.ArrayList;
 import java.util.List;
-import com.java.crawler.download.*;
-import com.java.crawler.to.Spider;
+
+import crawler.control.Spider;
+import crawler.download.*;
 
 import org.apache.log4j.Logger;
 import org.jsoup.Connection;

@@ -1,4 +1,4 @@
-package com.java.crawler.dao;
+package crawler.fetch;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -12,8 +12,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import com.java.crawler.WebCrawlerr.NextCrawl;
-import com.java.crawler.to.Spider;
+import crawler.control.Spider;
+import crawler.webcrawler.NextCrawl;
 
 
 public class SpiderLeg {

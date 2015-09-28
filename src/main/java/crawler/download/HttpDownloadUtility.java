@@ -1,4 +1,4 @@
-package com.java.crawler.download;
+package crawler.download;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -9,7 +9,7 @@ import java.net.URL;
 
 import org.apache.log4j.Logger;
 
-import com.java.crawler.to.Spider;
+import crawler.control.Spider;
 
 /**
  * A utility that downloads a file from a URL.
