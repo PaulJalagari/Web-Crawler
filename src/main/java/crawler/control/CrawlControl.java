@@ -14,7 +14,7 @@ public class CrawlControl {
 	private static final int MAX_PAGES_TO_SEARCH = 10;
 	private Set<String> pagesVisited = new HashSet<String>();
 	private List<String> pagesToVisit = new LinkedList<String>();
-	static Logger log=Logger.getLogger(Spider.class);
+	static Logger log=Logger.getLogger(CrawlControl.class);
 
 	/**
 	 * Our main launching point for the Spider's functionality. Internally it
