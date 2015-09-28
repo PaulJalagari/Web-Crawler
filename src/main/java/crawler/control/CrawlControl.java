@@ -9,7 +9,7 @@ import org.apache.log4j.Logger;
 
 import crawler.fetch.*;
 
-public class Spider {
+public class CrawlControl {
 
 	private static final int MAX_PAGES_TO_SEARCH = 10;
 	private Set<String> pagesVisited = new HashSet<String>();
@@ -29,7 +29,7 @@ public class Spider {
 	public void search(String url, String searchWord) {
 		while (this.pagesVisited.size() < MAX_PAGES_TO_SEARCH) {
 			String currentUrl;
-			SpiderLeg leg = new SpiderLeg();
+			Crawling leg = new Crawling();
 			if (this.pagesToVisit.isEmpty()) {
 				currentUrl = url;
 				this.pagesVisited.add(url);

@@ -8,10 +8,10 @@ import org.apache.log4j.BasicConfigurator;
 
 import crawler.control.*;
 
-public class SpiderTest {
+public class StartCrawl {
 	public static void main(String args[]) throws IOException{
 		BasicConfigurator.configure();
-		Spider spider = new Spider();
+		CrawlControl spider = new CrawlControl();
 		Properties prop = new Properties();
 		InputStream input = null;
 		input = new FileInputStream("config.properties");
