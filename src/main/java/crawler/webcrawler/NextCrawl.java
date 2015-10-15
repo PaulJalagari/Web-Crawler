@@ -22,10 +22,10 @@ public class NextCrawl {
 			Connection connection = Jsoup.connect(url).userAgent(USER_AGENT);
 			Document htmlDocument = connection.get();
 			if (connection.response().statusCode() == 200) // 200 is the HTTP OK
-															// status code
-															// indicating that
-															// everything is
-															// great.
+								      // status code
+								      // indicating that
+								      // everything is
+								      // great.
 			{
 				log.info("\n**Visiting** Received web page at " + url);
 			}
